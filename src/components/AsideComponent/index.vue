@@ -1,0 +1,35 @@
+<script setup>
+  
+</script>
+  
+<template>
+    <el-menu default-active="/education" class="el-menu-vertical" router>
+      <el-menu-item index="/education">
+        <template #title>学习</template>
+      </el-menu-item>
+      <el-menu-item index="/web">
+        <template #title>web开发</template>
+      </el-menu-item>
+      <el-menu-item index="/other">
+        <template #title>其他</template>
+      </el-menu-item>
+    </el-menu>
+  </template>
+
+<style scoped>
+    .el-menu-vertical {
+        /* width: 200px; */
+        height: 100%;
+        --el-menu-bg-color: #ffffff;
+    }
+    .el-menu-vertical .el-menu-item {
+        --el-menu-text-color: #000;
+        --el-menu-active-color: #1285ff;
+    }
+    .el-menu-vertical .el-menu-item:hover {
+        --el-menu-active-color: #fcbc0e;
+        background-color: #c9def7;
+
+    }
+
+</style>

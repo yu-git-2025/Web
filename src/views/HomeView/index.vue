@@ -1,13 +1,17 @@
 <script setup>
+    import AsideComponent from "@/components/AsideComponent/index.vue";
 
 </script>
 
 <template>
     <div class="common-layout">
       <el-container class="header-container-layout">
-        <el-header class="header-layout">Header</el-header>
+        <el-header class="header-layout">网页导航</el-header>
         <el-container class="main-container-layout">
-          <el-aside width="200px" class="aside-layout">Aside</el-aside>
+            <!-- 侧边栏 -->
+          <el-aside width="200px" class="aside-layout">
+            <AsideComponent></AsideComponent>
+          </el-aside>
           <el-main class="main-layout">Main</el-main>
         </el-container>
       </el-container>
@@ -29,13 +33,15 @@
     .header-layout {
         height: 80px;
         background-color: #d4dce3;
+        border: 2px solid #ef3838;
+
     }
     .aside-layout {
-        background-color: #2b8040;
+        border: 2px solid #2704d3;
 
     }
     .main-layout {
-        background-color: #409EFF;
+        border: 2px solid #000000;
 
     }
 
