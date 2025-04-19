@@ -1,6 +1,5 @@
 <script setup>
     import AsideComponent from "@/components/AsideComponent/index.vue";
-
 </script>
 
 <template>
@@ -12,7 +11,9 @@
           <el-aside width="200px" class="aside-layout">
             <AsideComponent></AsideComponent>
           </el-aside>
-          <el-main class="main-layout">Main</el-main>
+          <el-main class="main-layout">
+            <router-view></router-view>
+          </el-main>
         </el-container>
       </el-container>
     </div>
