@@ -5,10 +5,10 @@
 <template>
     <el-menu default-active="/ai" class="el-menu-vertical" router>
       <el-menu-item index="/ai">
-        <template #title>AI</template>
+        <template #title>AI工具</template>
       </el-menu-item>
       <el-menu-item index="/education">
-        <template #title>学习</template>
+        <template #title>大学工具</template>
       </el-menu-item>
       <el-menu-item index="/web">
         <template #title>web开发</template>
@@ -30,9 +30,10 @@
         --el-menu-active-color: #1285ff;
     }
     .el-menu-vertical .el-menu-item:hover {
-        --el-menu-active-color: #fcbc0e;
+        /* --el-menu-active-color: #fcbc0e; */
+        --el-menu-text-color: #79e522;
         background-color: #c9def7;
-
+        transform: scale(1.05);
     }
 
 </style>

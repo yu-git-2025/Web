@@ -254,7 +254,7 @@
 
 <style scoped>
     .el-space-card{
-        border : 2px solid #2554c1;
+        /* border : 2px solid #2554c1; */
     }
 
     .el-card-item{
@@ -280,7 +280,6 @@
         font-size: 18px;
         cursor: default; 
         caret-color: transparent;   /* 隐藏光标 */
-
     }
 
 </style>

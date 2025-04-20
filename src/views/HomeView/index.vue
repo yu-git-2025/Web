@@ -29,20 +29,20 @@
     }
     .main-container-layout {
         height: calc(100% - 80px);
-        border: 2px solid #000000;
+        /* border: 2px solid #000000; */
     }
     .header-layout {
         height: 80px;
         background-color: #d4dce3;
-        border: 2px solid #ef3838;
+        /* border: 2px solid #ef3838; */
 
     }
     .aside-layout {
-        border: 2px solid #2704d3;
+        /* border: 2px solid #2704d3; */
 
     }
     .main-layout {
-        border: 2px solid #000000;
+        /* border: 2px solid #000000; */
 
     }
 
