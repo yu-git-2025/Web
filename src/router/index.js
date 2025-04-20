@@ -9,7 +9,7 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
-      redirect: '/education',
+      redirect: '/ai',
       children: [
         {
           path: '/:type',

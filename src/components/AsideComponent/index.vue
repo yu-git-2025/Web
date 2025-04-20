@@ -3,7 +3,10 @@
 </script>
   
 <template>
-    <el-menu default-active="/education" class="el-menu-vertical" router>
+    <el-menu default-active="/ai" class="el-menu-vertical" router>
+      <el-menu-item index="/ai">
+        <template #title>AI</template>
+      </el-menu-item>
       <el-menu-item index="/education">
         <template #title>学习</template>
       </el-menu-item>
