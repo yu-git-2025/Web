@@ -26,4 +26,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+
+  base:'/Navigation-Page/'        //Github Pages 配置
+
 })
