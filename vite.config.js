@@ -27,6 +27,6 @@ export default defineConfig({
     },
   },
 
-  base:'/Navigation-Page/'        //Github Pages 配置
+  base:'/Navigation-Page/',       //Github Pages 配置
 
 })
