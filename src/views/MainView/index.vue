@@ -248,7 +248,7 @@
 </script>
 
 <template>
-    <el-space wrap size="small" class="el-space-card">
+    <el-space wrap size="large" class="el-space-card">
         <el-card v-for="item in dataList" shadow="hover" class="el-card-item" 
         body-style="padding: 15px 20px;display: flex;align-items: center;text-align: center;"
          @click="handleClick(item.url)">
@@ -267,8 +267,8 @@
 
     .el-card-item{
         border-radius: 10px;
-        background-color: #e1e1e1;
-
+        background-color: var(--el-color-warning-light-9);
+        box-shadow: var(--el-box-shadow);
     }
 
     .el-card-item:hover{
@@ -276,7 +276,7 @@
         box-shadow: 0 4px 16px rgba(0,0,0,0.5);
         background-color: #518afc;
         color: #fff;
-        transition: all 0.5s ease-in-out;
+        transition: all 0.3s ease-in-out;
     }
 
 

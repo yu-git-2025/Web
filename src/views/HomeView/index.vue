@@ -1,5 +1,7 @@
 <script setup>
     import AsideComponent from "@/components/AsideComponent/index.vue";
+    import MainComponent from "@/components/MainComponent/index.vue";
+
 </script>
 
 <template>
@@ -8,11 +10,12 @@
         <el-header class="header-layout">网页导航</el-header>
         <el-container class="main-container-layout">
             <!-- 侧边栏 -->
-          <el-aside width="200px" class="aside-layout">
+          <el-aside class="aside-layout">
             <AsideComponent></AsideComponent>
           </el-aside>
           <el-main class="main-layout">
-            <router-view></router-view>
+            <!-- 主体内容 -->
+            <MainComponent></MainComponent>
           </el-main>
         </el-container>
       </el-container>
@@ -39,11 +42,14 @@
     }
     .aside-layout {
         /* border: 2px solid #2704d3; */
+        min-width: 120px;
+        max-width: 200px;
+        width:20%;
 
     }
     .main-layout {
         /* border: 2px solid #000000; */
-
+        background-color: #F5F7FA;
     }
 
 </style>
