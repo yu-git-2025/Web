@@ -23,7 +23,8 @@
     .el-menu-vertical {
         /* width: 200px; */
         height: 100%;
-        --el-menu-bg-color: var(--el-color-info-light-9);
+        --el-menu-bg-color: #fff;
+        overflow-x: hidden;
     }
     .el-menu-vertical .el-menu-item {
         --el-menu-text-color: #000;

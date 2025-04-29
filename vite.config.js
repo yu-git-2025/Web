@@ -29,4 +29,9 @@ export default defineConfig({
 
   base:'/Navigation-Page/',       //Github Pages 配置
 
+  build: {
+    outDir: 'dist',
+    assetsInclude: ['.nojekyll']  // 确保包含此配置
+  }
+
 })

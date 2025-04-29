@@ -270,6 +270,20 @@
             img:'https://realfavicongenerator.net/assets/images/logo.png',
             description: 'Favicon生成工具是一个在线工具，用于生成和优化网站的favicon图标，支持多种格式和尺寸'
         },
+        {
+            id: 5,
+            name: 'Maven仓库',
+            url: 'https://mvnrepository.com',
+            img:'https://mvnrepository.com/assets/images/7080b8b0f6f48e6fbaffd5f9d85fcc7f-favicon.ico',
+            description: 'Maven仓库是一个在线的Maven依赖库，提供丰富的Java库和组件，方便开发者查找和使用'
+        },
+        {
+            id: 6,
+            name: 'LeetCode',
+            url: 'https://leetcode.cn',
+            img:'https://leetcode.cn/favicon.ico',
+            description: 'LeetCode是一个在线编程学习平台，提供丰富的编程题库和学习资源，帮助用户提升编程能力'
+        }
         
     ]
   
@@ -294,7 +308,10 @@
 
 <style scoped>
     .el-space-card{
-        /* border : 2px solid #2554c1; */
+        padding: 30px;
+        /* display: flex;
+        justify-content: center; */
+
     }
 
     .el-card-item{
@@ -329,5 +346,12 @@
         cursor: default; 
         caret-color: transparent;   /* 隐藏光标 */
     }
+
+    /* 手机（≤768px） */
+    /* @media (max-width: 768px) {
+        .el-card-item{
+            width: 100px;
+        }
+    } */
 
 </style>
